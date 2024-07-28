@@ -1,0 +1,280 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+
+html,body{
+    line-height: 1.4;
+    font-weight: 300;
+    font-family:"Roboto",sans-serif;
+}
+.navigation_container{
+    display:flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+   
+   
+}
+.logo img{
+    margin:0;
+    height:80px;
+    width:80px;
+    border-radius: 25px;
+    image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  
+}
+.navigation_container,.logo{
+   
+    align-items:center;
+}
+
+nav{
+    box-shadow: 5px 5px 5px lightgray;
+    position:sticky;
+    top:0;
+    background-color: white;
+}
+.navigation_container,img{
+   
+    align-items:center;
+}
+.logo{
+   
+}
+.material-symbols-outlined{
+    font-size: 30px;
+}
+
+.hero{
+    padding-top: 30px;
+    display:flex;
+    gap: 100px;
+    justify-content: center;
+}
+.hero_image img{
+    height:375px;
+    width:400px;
+    border-radius:50%;
+    margin-left: 100px;
+    image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+.hero_content{
+   margin-top: 40px;
+  
+   
+}
+.tag{
+    background-color: green;
+    margin-right: 60px;
+    color:white;
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 10px;
+    width: 300px;
+}
+.hero_content ,h1,p,button{
+    margin-bottom: 2px;
+}
+h1{
+    font-size: 65px;
+    font-weight: 600;
+}
+.button{
+    margin-top: 10px;
+    height: 40px;
+    width:200px;
+    border:none;
+    transition:0.2s ease-in-out;
+    background-color: orange;
+    color:white;
+    font-size: 24px;
+}
+button:hover{
+    transition:0.2s ease-in-out;
+    opacity: 0.0;
+}
+
+.features{
+    display:flex;
+    margin-top: 100px;
+    justify-content: center;
+    padding:
+}
+
+.feature1 img{
+    height: 90px;
+    width:90px;
+    
+}
+.feature1{
+    display: flex;
+    gap:20px;
+    padding:30px;
+    transition:0.2s ease-in-out;
+
+}
+.features:hover{
+    transition:0.5s;
+    box-shadow: 5px 5px 5px;
+    
+    
+}
+.divider{
+    border:1px solid;
+    margin-bottom: 45px;
+    color:grey;
+}
+.menu{
+  background-color: green;
+  color:white;
+  height: 30px;
+  width:100px;
+  text-align: center;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:40px;
+    flex-wrap: wrap;
+}
+.box .menu{
+    align-self: center;
+}
+.grid{
+    display: grid;
+    gap:10px;
+    grid-template-areas: 
+    "I1 I1 I2 I3"
+    "I1 I1 I2 I7"
+    "I4 I5 I6 I7"
+    ;
+
+}
+.item1{
+    grid-area:I1;
+    
+}
+.item1 img{
+    height: 400px;
+    width: 400px;
+    image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+    
+}
+
+.item2{
+    
+    grid-area:I2;
+}
+.item2 img{
+    height: 400px;
+    width: 200px;
+    image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+    
+}
+.item3{
+    grid-area:I3;
+    
+}
+.item3 img{
+    height: 200px;
+    width: 200px;
+    image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+    
+}
+.item4{
+    grid-area:I4;
+    
+}
+.item4 img{
+    height: 200px;
+    width: 200px;
+    image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+    
+}
+.item5{
+    grid-area:I5;
+   
+}
+.item5 img{
+    height: 200px;
+    width: 200px;
+    image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+    
+}
+.item6{
+    grid-area:I6;
+   
+}
+.item6 img{
+    height: 200px;
+    width: 200px;
+    image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+    
+}
+.item7{
+    grid-area:I7;
+    
+}
+.item7 img{
+    height: 400px;
+    width: 200px;
+    image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+    
+}
+.grid-img{
+   border-radius: 10px;
+    transition: 0.2 ease-in-out;
+}
+.grid-img:hover{
+    transform: scale(1.05);
+    transition: 0.2 ease-in-out;
+}
+.log_img img{
+    background-color: antiquewhite;
+height: 50px;
+width: 50px;
+}
+
+.footer{
+    margin-top: 50px;
+background-color: antiquewhite; 
+padding:20px; 
+}
+.footer_container{
+    display:flex;
+    justify-content: space-around;
+}
+.link_list ul{
+   list-style: none;
+}
+.link_list ul{
+     padding-top: 10px;
+}
+
+@media(max-width:786px){
+    .features{
+        flex-direction: column;
+    }
+    .footer_container{
+        flex-direction: column;
+    }
+    .newslater{
+        padding-top: 10px;
+    }
+
+}
+
+
+
+
